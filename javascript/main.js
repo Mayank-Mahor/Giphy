@@ -23,8 +23,10 @@ function getUserInput() {
 
 
 function searchGiphy( searchQuery ) {
-	var url = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=" + searchQuery;
+// 	var url = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=" + searchQuery;
 
+	var query = searchQuery.split(' ').join('+')
+        var url = "https://api.giphy.com/v1/gifs/search?api_key=Jse1ROzgfHsHMOPsFqhbZotcr4qGjPka&q=" + query + "&limit=25&offset=0&rating=g&lang=en";
 	// AJAX Request
 	var GiphyAJAXCall = new XMLHttpRequest();
 	GiphyAJAXCall.open( 'GET', url );
