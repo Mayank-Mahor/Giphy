@@ -31,7 +31,9 @@ body {
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
     max-width: 100%;
-    height: auto;
+/*     height: auto; *//*Removed*/
+     width: 135px;/*INSERTED*/
+     height: 133px;/*INSERTED*/
     float: left;
 }
 
