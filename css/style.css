@@ -52,11 +52,11 @@ h1 {
 
 @media screen and (max-device-width: 630px) {
     h1 {
-        font-size: 4rem;
+        font-size: 3.2rem; /*font size = 4*/
     }
     img {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem; /* width = 5rem*/
+        height: 4rem; /* height = 5re*/
     }
 }
 
